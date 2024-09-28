@@ -9,6 +9,7 @@ body {
     display: flex;
 }
 
+/*title box__(left)*/
 .title_box {
     width: 280px;
     height: 100%;
@@ -37,6 +38,8 @@ body {
     font-family: Verdana;
 }
 
+
+/*contents box__(right)*/
 .contents_box {
     display: flex;
     flex-direction: column;
@@ -61,13 +64,13 @@ body {
     height: 600px;
 }
 
+/*article box*/
 .article_box {
     width: 250px;
     height: 100%;
     opacity: 0.4;
     box-sizing: border-box;
     display: flex;
-    flex-direction: column;
     color: white;
     transition: all 1s ease;
     position: relative;
@@ -105,7 +108,7 @@ body {
 
 .article_box::before {
     content: '';
-    background-image: url(back.png);
+    background-image: url(./img/back.png);
     transition: all 1s ease;
     width: 0%;
     height: 100%;
